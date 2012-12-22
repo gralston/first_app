@@ -6,6 +6,8 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+# Heroku fix, maybe
+gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 
 # Gems used only for assets and not required
@@ -37,7 +39,3 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-# Heroku fix, maybe
-source 'http://rubygems.org
-gem 'rails', '3.0.1'
-gem 'sqlite3-ruby', '1.2.5', :group => :development
